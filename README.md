@@ -41,5 +41,26 @@ It calculates the final price of an item based on the discount percentage provid
 
 ---
 
-## 🖥️ Example Usage
+# Week 4 Assignment - File Read & Write Challenge & Error Handling Lab
+
+This program demonstrates **file handling** in Python by reading from a file, modifying its contents, and writing the modified version to a new file.  
+It also includes **error handling** to manage cases where the file doesn’t exist or can’t be accessed.
+
+---
+
+## 📌 Features
+
+1. Prompts the user to **enter a filename** to read.  
+2. Attempts to **open and read** the file content safely.  
+3. **Modifies** the file’s content (e.g., converts all text to uppercase).  
+4. **Writes** the modified content to a new file named `modified_<original_filename>`.  
+5. Handles common file-related errors:
+   - `FileNotFoundError` – when the file doesn’t exist.  
+   - `PermissionError` – when the user lacks read/write permissions.  
+   - Any other unexpected error is caught and displayed gracefully.
+
+---
+
+## 🧪 Example Usage
+
 
