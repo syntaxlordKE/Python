@@ -59,6 +59,44 @@ It also includes **error handling** to manage cases where the file doesn’t exi
    - `PermissionError` – when the user lacks read/write permissions.  
    - Any other unexpected error is caught and displayed gracefully.
 
+
+---
+
+# Week 5 Assignment - Object-Oriented Programming (OOP) in Python
+
+This week explores **Object-Oriented Programming (OOP)** concepts such as **classes**, **objects**, **constructors**, **encapsulation**, **inheritance**, and **polymorphism**.
+
+---
+
+## 🏗️ Assignment 1: Design Your Own Class  
+**File:** `smartphone_oop_inheritance.py`
+
+This program defines a `Smartphone` class that inherits from a parent `Device` class.  
+It demonstrates **encapsulation** using private attributes and **inheritance** through class extension.
+
+### 📌 Features
+1. `Device` (Parent Class) – stores general device info (brand, model).  
+2. `Smartphone` (Child Class) – adds attributes like `storage` and `battery`.  
+3. Implements **encapsulation** using private attributes and getters/setters.  
+4. Demonstrates real-world behavior with methods like `charge()` and `specs()`.  
+5. Uses a constructor (`__init__`) to initialize objects with unique values.
+
+---
+
+## 🎭 Activity 2: Polymorphism Challenge  
+**File:** `vehicle_polymorphism_demo.py`
+
+This program demonstrates **polymorphism** using different vehicle classes that all share the same method name (`move()`), but perform different actions.
+
+### 📌 Features
+1. Defines classes `Car`, `Plane`, and `Boat`.  
+2. Each class implements its own version of `move()`.  
+3. Demonstrates **polymorphism** by calling `move()` on different objects in a loop.  
+4. Showcases flexibility and extensibility of OOP design.
+
+### 🖥️ Example Output
+
+
 ---
 
 ## 🧪 Example Usage
