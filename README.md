@@ -94,11 +94,24 @@ This program demonstrates **polymorphism** using different vehicle classes that 
 3. Demonstrates **polymorphism** by calling `move()` on different objects in a loop.  
 4. Showcases flexibility and extensibility of OOP design.
 
-### 🖥️ Example Output
+# Week 6 Assignment - Ubuntu Image Fetcher 🐧
 
+This program demonstrates practical use of **Python networking and file handling** through an image downloader built using the `requests` library.  
+It aligns with the Ubuntu principles of **mindful connection, community, and respect** while teaching robust error handling and resource management.
 
 ---
 
-## 🧪 Example Usage
+## 🎯 Objective
+
+Create a command-line tool that:
+- Downloads images from user-provided URLs.
+- Saves them neatly into a `Fetched_Images` folder.
+- Handles network errors gracefully.
+- Promotes community values by writing clean, respectful, and open code.
+
+---
+
+
+### 🖥️ Example Output
 
 
